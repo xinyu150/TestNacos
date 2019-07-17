@@ -1,0 +1,22 @@
+server:
+  port: 8082
+  
+  servlet:
+    context-path: /testNacos
+  
+spring:
+  application:
+    name: TestNacos
+    
+#  cloud: 
+#    nacos: 
+#      discovery: 
+#        server-addr: 127.0.0.1:8848
+    
+nacos: 
+  config: 
+    server-addr: localhost:8848
+#    server-addr: 127.0.0.1:8848
+  discovery: 
+    server-addr: localhost:8848
+#    server-addr: 127.0.0.1:8848
